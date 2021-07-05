@@ -1,0 +1,145 @@
+@font-face {
+	font-family:"Montserrat-Medium";
+	src:url('fonts/Montserrat-Medium.woff') format('woff');
+}
+@font-face {
+	font-family:"NunitoSans-Regular";
+	src:url('fonts/NunitoSans-Regular.woff') format('woff');
+}
+@font-face {
+	font-family:"WorkSans-Regular";
+	src:url('fonts/WorkSans-Regular.woff') format('woff');
+}
+
+body {
+	margin: 0;
+	font-family:"Montserrat-Medium";
+}
+h1 {
+	font-family:"Montserrat-Medium";
+	font-size:38px;
+	font-weight:bold;
+	color:#171717;
+	text-transform:capitalize;
+}
+p {
+	font-family:"NunitoSans-Regular";
+	font-size:18px;
+	color:#787878;
+}
+
+
+
+.header-area {
+	padding: 50px;
+	/*position: fixed;
+	top:0;
+	left:0;
+	z-index: 9999;*/
+}
+.head-img {
+	margin-bottom: 50px;
+}
+.nav-link {
+	font-family:"Montserrat-Medium";
+	font-size:12px;
+	font-weight:bold;
+	color:#191919;
+}
+
+
+.sub-header {
+	background-color: #F6F6F6;
+	padding: 100px;
+}
+
+
+
+.porfolio-area {
+	
+}
+.porfolio-area img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+.modal-area {
+	padding: 50px;
+	background-color: #F6F6F6;
+}
+.modal-area .file{
+	text-transform: capitalize;
+	display: block;
+	padding: 20px 0;
+}
+
+.modal-area a{
+	font-family:"Montserrat-Medium";
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #E1E1E1;
+}
+
+
+.gallery-area {
+	background-color: #7f8c8d;
+}
+.gallery-area .gallery-tab{
+	text-transform: capitalize;
+	padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-area {
+	padding: 50px;
+	background-color: #141414;
+}
+.footer-area h4{
+	color: #FFFFFF;
+}
+
+.footer-area  p,
+.footer-area p a {
+	font-family:"NunitoSans-Regular";
+	font-size:15px;
+	color:#bcbcbc;
+}
+.footer-area  .phone {
+	font-family:"WorkSans-Regular";
+	font-size:15px;
+	color:#bcbcbc;
+}
+.footer-area ul {
+	list-style:none;
+}
+.footer-area  .footer-links {
+	margin-top: 20px;
+}
+.footer-area  .footer-links a{
+	font-family:"NunitoSans-Regular";
+	font-size:15px;
+	color:#bcbcbc;
+	text-decoration:none;
+	transition:.5s ease-in-out;
+	text-transform:capitalize;
+}
+.footer-area .footer-links a:hover {
+	font-size:19px;
+	color:#FFF;
+}
+
+
+
+

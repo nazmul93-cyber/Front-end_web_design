@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>piroll-using uikit-2.27.5</title>
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/uikit.min.css">
+	<link rel="stylesheet" href="css/uikit.gradient.min.css">
+	<link rel="stylesheet" href="css/uikit.almost-flat.min.css">
+	<link rel="stylesheet" href="css/components/form-file.min.css">
+	<link rel="stylesheet" href="css/components/form-password.min.css">
+
+	<link rel="stylesheet" href="style.css">
+
+
+
+	<!-- scripts -->
+	<script 
+			  src="https://code.jquery.com/jquery-1.11.3.min.js"
+			  integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g="
+			  crossorigin="anonymous"></script>
+	<script
+			  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+			  integrity="sha256-HmfY28yh9v2U4HfIXC+0D6HCdWyZI42qjaiCFEJgpo0="
+			  crossorigin="anonymous"></script>
+	<script src="js/uikit.min.js"></script>
+	<script src="js/components/grid.min.js"></script>
+	<script src="js/components/form-password.min.js"></script>
+	<script src="js/components/lightbox.min.js"></script>
+</head>
+<body>
+	<header class="header-area" id="home">
+		<div class="uk-grid uk-container-center">
+			<div class="uk-width-small-1-10 uk-width-1-1 head-img"><img src="images/piroll.png" alt="piroll"></div>
+			<div class="uk-width-small-8-10 uk-width-1-1 uk-text-center">
+				<div class="uk-navbar uk-navbar-flip">
+					<ul class="uk-navbar-nav">
+						<li class="uk-active"><a class="nav-link" href="#home" data-uk-smooth-scroll="">Home</a></li>
+						<li class="uk.parent" data-uk-dropdown="">
+							<a class="nav-link" href="#about" data-uk-smooth-scroll="">About</a>
+							<div class="uk-dropdown">
+								<ul class="uk-nav uk-navbar-nav">
+									<li><a href="#">about us</a></li>
+									<li><a href="#">about our history</a></li>
+									<li><a href="#">about our principal</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a class="nav-link" href="#contact" data-uk-smooth-scroll="">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="sub-header uk-text-center" id="about">
+		<h1>UI/UX & Graphic Designer</h1>
+		<p>I am a Graphic & Web Designer based in New York, specializing in User Interface Design and Development.</p>
+		<a href="images/ui-ux.png" class="uk-button" data-uk-lightbox="" title="we care about our customers">Light Up</a>
+	</section>
+
+	<section class="portfolio-area">
+		<div class="uk-grid uk-grid-collapse">
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall1.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">1st wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall2.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">2nd wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall3.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">3rd wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall4.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">4th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall5.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">5th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall6.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">6th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall7.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">7th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall8.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">8th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall9.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">9th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall10.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">10th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall11.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">11th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-left',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall12.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">12th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall13.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">13th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall14.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">14th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall15.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">15th wall image</figcaption>
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1 uk-overlay uk-overlay-hover" data-uk-scrollspy="{cls:'uk-animation-slide-right',delay:'1000'}">
+				<img class="uk-overlay-spin" src="images/wall16.jpg" alt="">
+				<figcaption class="uk-overlay-panel uk-overlay-slide-bottom uk-overlay-background uk-overlay-bottom">16th wall image</figcaption>
+			</div>
+		</div>
+	</section>
+
+	<section class="modal-area uk-text-center">
+		<a href="#" class="uk-button" data-uk-modal="{target:'#jimmy'}">become a member</a>
+		<div class="uk-modal" id="jimmy">
+			<div class="uk-modal-dialog">
+				<a href="#" class="uk-close uk-modal-close"></a>
+				<div class="uk-modal-header"><h3>sign up</h3></div>
+				<form class="uk-form" action="#">
+					<input type="text" name="" id="" placeholder="Enter your name">
+					<div class="uk-form-password">
+						<input type="password" name="" id="" placeholder="Enter your password">
+						<a href="#" class="uk-form-password-toggle" data-uk-form-password="">show</a>
+					</div>
+					<div class="uk-form-file file">
+						<button class="uk-button">share your work</button>
+						<input type="file" name="" id="">
+					</div>
+					<input type="submit" value="submit">
+				</form>
+				<div class="uk-modal-footer">
+					<div class="uk-button uk-modal-close">close</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="gallery-area">
+		<div class="gallery-tab">
+			<ul class="uk-tab" id="filterit">
+				<li data-uk-filter=""><a href="#">all</a></li>
+				<li data-uk-filter="pen"><a href="#">pen</a></li>
+				<li data-uk-filter="pencil"><a href="#">pencil</a></li>
+				<li data-uk-filter="paper"><a href="#">paper</a></li>
+				<li data-uk-filter="coffee"><a href="#">coffee</a></li>
+			</ul>
+		</div>
+		<div class="uk-grid" data-uk-grid="{gutter:10 , controls:'#filterit'}">
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="pen">
+					<img src="images/pen1.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="pen">
+					<img src="images/pen2.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="pen">
+					<img src="images/pen3.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="paper">
+					<img src="images/paper3.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="pencil">
+					<img src="images/pencil1.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="pencil">
+					<img src="images/pencil2.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="pencil">
+					<img src="images/pencil3.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="paper">
+					<img src="images/paper2.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="coffee">
+					<img src="images/coffee3.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="paper">
+					<img src="images/paper1.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="coffee">
+					<img src="images/coffee2.jpeg" alt="">
+			</div>
+			<div class="uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 uk-width-1-1" data-uk-filter="coffee">
+					<img src="images/coffee1.jpeg" alt="">
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer class="footer-area" id="contact">
+		<div class="uk-grid">
+			<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-1-1 uk-text-center">
+				<h4 class="text-white">Piroll Design, Inc.</h4>
+				<p>&copy; 2017 piroll. all rights reserved. <br /> designed by Robirurk </p>
+			</div>
+			<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-1-1 uk-text-center">
+				<p><a href="mailto:hello@pirolltheme.com">hello@pirolltheme.com</a></p>
+				<p class="phone"> +44 987 065 908 </p>
+			</div>
+			<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-1-1 uk-text-center footer-links">
+				<div class="uk-grid">
+					<div class="uk-width-1-4">
+								<ul class="list-unstyled ">
+									<li><a href="#">projects</a></li>
+									<li><a href="#">about</a></li>
+									<li><a href="#">services</a></li>
+									<li><a href="#">career</a></li>
+								</ul>
+					</div>
+					<div class="uk-width-1-2">
+								<ul class="list-unstyled ">
+									<li><a href="#">news</a></li>
+									<li><a href="#">events</a></li>
+									<li><a href="#">contact</a></li>
+									<li><a href="#">legals</a></li>
+								</ul>
+					</div>
+					<div class="uk-width-1-4">
+								<ul class="list-unstyled ">
+									<li><a href="#">facebook</a></li>
+									<li><a href="#">twitter</a></li>
+									<li><a href="#">instagram</a></li>
+									<li><a href="#">dribbble</a></li3
+								</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>

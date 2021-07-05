@@ -1,0 +1,51 @@
+@media all and (max-width:768px) {
+	.container {
+		width: 95%;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin-bottom: 40px;
+	}
+	
+	.header-menu ul {
+		float: none;
+		
+	}
+	.header-menu ul li {
+		float: none;
+		
+	}
+	.col-1-4 {
+		width: 46%;
+		margin: 0 2%;
+		margin-bottom: 80px;
+	}
+}
+
+@media all and (max-width:600px) {
+	.col-1-4 {
+		width: 96%;
+		float: none;
+	}	
+	.col-1-2 {
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.service-item img {
+		max-width: 40%;
+		width: auto;
+		height: auto;
+	}
+	.contact-area .contact-form input[type="text"] ,
+	.contact-area .contact-form input[type="email"]
+	{
+	float: none;
+	width:100%;
+	margin-bottom: 25px;
+
+}
+}

@@ -1,0 +1,237 @@
+
+@font-face {
+	font-family:"lato bold";
+	src:url('fonts/Lato-Bold.woff') format('woff');
+}
+@font-face {
+	font-family:"lato italic";
+	src:url('fonts/Lato-Italic.woff') format('woff');
+}
+@font-face {
+	font-family:"lato light";
+	src:url('fonts/Lato-Light.woff') format('woff');
+}
+@font-face {
+	font-family:"lato regular";
+	src:url('fonts/Lato-Regular.woff') format('woff');
+}
+/************        typography ***************/
+body {
+	font-family:"lato regular";
+	color:#000;
+	font-size:28px;
+	letter-spacing:1px;
+	line-height:1.3em;
+}
+strong {
+	font-family:"lato bold";
+	color:#373737;
+	font-size:20px;
+	letter-spacing:2px;
+	
+}
+address {
+	font-family:"lato italic";
+	color:#87888A;
+	font-size:20px;
+	letter-spacing:.5px;
+}
+
+h3 {
+	font-family:"lato bold";
+	color:#38393B;
+	font-size:17px;
+	letter-spacing:2px;
+	line-height:1.5em;
+}
+p {
+	font-family:"lato regular";
+	color:#9A9B9D;
+	font-size:14px;
+	letter-spacing:.5px;
+	line-height:2em;
+}
+
+
+
+.header-area {
+	background:#FFF url(images/cycle.jpg) no-repeat center bottom;
+	background-size:100% 100%;
+	padding-bottom:650px;
+}
+.first ul li {
+	margin:25px 10px 0 10px;
+}
+.first ul li a {
+	font-family:"lato bold";
+	color:#666672;
+	font-size:12px;
+	letter-spacing:2px;
+	line-height:1.3em;
+}
+.first ul li i{
+	font-size:2px;
+}
+
+
+.moto {
+	padding:100px 0 310px 0;
+	background-color:#F7F7F7;
+}
+.moto-text h3{
+	margin-bottom:20px;
+}
+
+
+
+.product {
+	
+}
+.logo9 {
+	background:#FFF url(images/handle.jpg) 0 0 no-repeat;
+	background-size:100% 100%;
+	padding:215px 0 215px 0;
+}
+.product .col-md-4{
+	padding-left:0;
+	padding-right:0;
+	
+}
+.product-text{
+	margin-top:60px;
+	
+}
+.seat {
+	margin-top:237px;
+}
+
+.logo10 {
+	background:#FFF url(images/cycle2.jpg) 0 0 no-repeat;
+	background-size:100% 100%;
+	padding:270px 0 98px 0;
+}
+.product-text2 {
+	margin-top:55px;
+}
+.seat2 {
+	margin-top:212px;
+}
+
+.logo11 {
+	background:#FFF url(images/middle2.jpg) 0 0 no-repeat;
+	background-size:100% 100%;
+	padding:269px 0 182px 0;
+}
+.product-text3 {
+	margin-top:55px;
+}
+.middle {
+	margin-top:203px;
+}
+
+
+
+.slides {
+	padding:60px 0;
+}
+.carousel-indicators li {
+	border:1px solid black;
+}
+
+
+
+.shop .col-md-6,
+.col-md-4{
+	padding-left:0;
+	padding-right:0;
+} 
+.logo6 {
+	background:#FFF url(images/showroom.jpg) 0 0 no-repeat;
+	background-size:100% auto;
+	padding:114px 0 68px 0;
+}
+.shoplink {
+	background:#282F35;
+	padding:70px 0 70px 0;
+}
+.bottam {
+	font-family:"lato bold";
+	font-size:12px;
+	color:#FFFFFF;
+	background:#282F35;
+	border-radius:0;
+	padding:15px 45px;
+	letter-spacing:3px;
+	line-height:1.3em;
+}
+
+
+
+.signup-area {
+	margin:100px 0;
+}
+.signuptext {
+	margin:30px 0;
+}
+.signuptext i{
+	font-family:"lato italic";
+	color:#8F9091;
+	font-size:20px;
+}
+
+.email{
+	font-family:"lato italic";
+	color:#D2D2D2;
+	border-radius:0;
+	padding:30px 90px 30px 30px;
+}
+.submit{
+	font-family:"lato light";
+	background:#64C29E;
+	color:#FFFFFF;
+	border-radius:0;
+	padding:20px 30px 40px 30px;
+	font-size:18px;
+}
+
+
+.footer-area {
+	background:#F7F7F7;
+	padding:115px 0;
+}
+.footer-area address {
+	font-size:15px;
+}
+.twitter {
+	color:#72CEEB;
+}
+.facebook{
+	color:#547BBE;
+}
+.pinterest {
+	color:#EA5857;
+}
+.footer-text {
+	font-family:"lato italic";
+	font-size:12px;
+	color:#909090;
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

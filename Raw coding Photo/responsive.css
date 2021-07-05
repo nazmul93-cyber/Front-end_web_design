@@ -1,0 +1,89 @@
+@media all and (max-width:968px) {
+	
+.menu-area ul li{
+	display:inherit;
+	margin: 35px 0;
+}
+.col-1-3 {
+	width:auto;
+	float:none;
+	overflow:hidden;
+	
+}
+.community-area .arrow {
+	margin-left:80%;
+}
+.subscriber-area .container {
+	width:auto;
+}
+#col-1-2 {
+	width:auto;
+	float:none;
+	margin: 30px 0;
+}
+.store-links {
+	width:auto;
+}
+.footer-area .green-camera {
+	display:block;
+	margin-left:0;
+}
+
+
+
+}
+
+
+
+
+
+@media all and (max-width:360px){
+	.subscriber-area form input[type="email"] {
+	padding:10px 10px 10px 10px;
+	
+}
+
+.subscriber-area form button[type="submit"] {
+	padding:10px 10px 10px 10px;
+	
+}
+.store {
+	
+	font-size:13px;
+}
+.applogo {
+	font-size:20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

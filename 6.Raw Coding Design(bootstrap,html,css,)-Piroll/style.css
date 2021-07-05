@@ -1,0 +1,150 @@
+@font-face {
+	font-family:"Montserrat-Medium";
+	src:url('fonts/Montserrat-Medium.woff') format('woff');
+}
+@font-face {
+	font-family:"NunitoSans-Regular";
+	src:url('fonts/NunitoSans-Regular.woff') format('woff');
+}
+@font-face {
+	font-family:"WorkSans-Regular";
+	src:url('fonts/WorkSans-Regular.woff') format('woff');
+}
+
+body {
+	font-family:"Montserrat-Medium";
+}
+h1 {
+	font-family:"Montserrat-Medium";
+	font-size:38px;
+	font-weight:bold;
+	color:#171717;
+	text-transform:capitalize;
+}
+h5 {
+	font-family:"NunitoSans-Regular";
+	font-size:18px;
+	color:#787878;
+}
+h3{
+	font-family:"NunitoSans-Regular";
+	font-size:28px;
+	color:#FFF;
+}
+p{
+	font-family:"NunitoSans-Regular";
+	font-size:16px;
+	color:#FFF;
+	text-transform:capitalize;
+}
+h4 {
+	font-family:"Montserrat-Medium";
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:capitalize;
+	line-height:2em;
+}
+
+/****************        header area               *********************/
+
+.header-area .header-links a {
+	font-family:"Montserrat-Medium";
+	font-size:12px;
+	font-weight:bold;
+	color:#191919;
+	border-bottom: 1px solid transparent;
+	transition:.5s;
+}
+.header-area .header-links .current {
+	color:#21bfb9;
+}
+
+.header-area .header-links a:hover {
+	color:#21bfb9;
+	border-bottom: 1px solid #21bfb9;
+}
+
+
+
+/**************          sub header area           *****************/
+
+.sub-header h5 {
+	line-height:1.5em;
+}
+
+
+
+
+/************                  portfolio area                        ****************/
+.portfolio-area img {
+	width:100%;
+	height:auto;
+}
+.portfolio-area .img-over {
+	position:relative;
+}
+.overlay {
+  background:#FFF url(images/eye.png) center no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #22BEBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .4s ease-in-out;
+}
+.portfolio-area .img-over:hover .overlay {
+	height:100%;
+	opacity:0.8;
+}
+
+.overlay-text {
+  border:1px solid #FFF;
+  border-radius:4%;
+  padding:5px;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/***************         footer area                 **************/
+
+.footer-area  {
+	background-color:#000000;
+}
+.footer-area  p,
+.footer-area a {
+	font-family:"NunitoSans-Regular";
+	font-size:15px;
+	color:#bcbcbc;
+}
+.footer-area  .phone {
+	font-family:"WorkSans-Regular";
+	font-size:15px;
+	color:#bcbcbc;
+}
+
+.footer-area  .footer-links a{
+	font-family:"NunitoSans-Regular";
+	font-size:15px;
+	color:#bcbcbc;
+	text-decoration:none;
+	transition:.5s ease-in-out;
+	text-transform:capitalize;
+}
+.footer-area .footer-links a:hover {
+	font-size:19px;
+	color:#FFF;
+}
+
+
+
+

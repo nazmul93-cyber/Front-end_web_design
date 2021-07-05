@@ -1,0 +1,353 @@
+/*------------------------------------------------------------------
+Template Name: phototime
+Template URl: softtech-it.com
+Description: photo related template
+Author: nazmul alam
+Author URl: www.nazmulalam.com
+Lisence: GNU General Public License version 3.0
+Lisence URL: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0
+
+---------------------------------------------------------------------
+
+1. Typography
+2. Header Area
+	2.1 Menu Area
+	2.2 Welcome Area
+	2.3 Social Area 
+3. Getting Started                      ...bakigulao likhe nite hobe
+4. Design Area
+5. Community Area
+6. Subscribe Area
+7. Download Area
+8. Footer Area
+
+------------------------------------------------------------------*/
+
+
+
+/******************         Typography      ***********************/
+
+@font-face {
+	font-family:"gotham rounded";
+	src:url('webfonts/GothamRoundedBook_21018.woff') format('woff');
+}
+@font-face {
+	font-family:"gotham rounded bold";
+	src:url('webfonts/GothamRoundedBold_21016.woff') format('woff');
+}
+
+
+
+h2 {
+	font-size:33px;
+	letter-spacing:5px; 
+	font-weight:normal;
+	line-height:1.5em;
+	margin:30px 0;
+}     
+
+h3 {
+	font-family:"gotham rounded bold";
+	font-weight:normal;
+	color:#16a085;
+	font-size:19px;
+	letter-spacing:2px;
+	line-height:1.3em;
+}  
+
+                                     
+h5 {
+	font-family:"gotham rounded";
+	font-size:17px;
+	font-weight:normal;
+	letter-spacing:2px;
+	margin:30px 0;
+}
+
+p{
+	font-family:"gotham rounded";
+	font-size:11px;
+	color: #7B7B7D;
+	letter-spacing:1px;
+	line-height:1.5em;
+	
+}                          
+
+
+
+
+
+
+
+/********************    2.Header Area   ************************/
+
+
+.header-area {
+	font-family:"gotham rounded bold";
+	background:#FFF url('images/headerbg.jpg') no-repeat  0 0 / 100% 100% ;
+	color:#FFFFFF;
+	text-align:center;
+	overflow:hidden;
+	padding:40px 0;
+}
+
+
+/*********************      2.1 Menu Area      ****************/
+
+
+
+.menu-area ul li{
+	margin: 0 35px;
+}
+.menu-area ul li a {
+	font-family:"gotham rounded bold";
+	color: #FFFFFF;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+
+/******************      2.2 Welcome Text     *******************/
+
+
+
+
+.welcome-text{
+	margin-top:230px;
+	overflow:hidden;
+}
+.bottam {
+	font-family:"gotham rounded";
+	color:#FFFFFF;
+	background:#16a085;
+	font-size:12px;
+	transition:.4s;
+	border:1px solid transparent;
+}
+.btn:hover {
+	background:#FFFFFF;
+	color:#16a085;
+	border:1px solid #16a085;
+	
+}
+
+
+/**********           2.3 Social Area        ************/
+
+
+
+.social-media {
+	overflow:hidden;
+	margin-top:220px;
+}
+.social-media ul li{
+	margin:0 6px;
+}
+.social-media ul li a {
+	color:#FFFFFF;
+	font-size:23px;
+}
+
+
+/***               3. Getting Started            ***/
+
+
+.getting-started {
+	background: #f5f6f7;
+	overflow:hidden; 
+}
+.text-area {
+	margin-top:112px;
+	background-color:#f5f6f7;	
+}
+.text-area h3 {
+	margin-bottom:36px;
+}
+.text-area p {
+	margin-bottom:45px;
+}
+
+
+/*************       4.Design Area       ********************/
+
+.design-area {
+	margin-top:144px;
+	overflow:hidden;
+}
+
+.design-text h3 {
+	margin-bottom:35px;
+}
+.design-text p {
+	margin-bottom:35px;
+}
+.slide {
+	margin:45px 0;
+}
+.numpage {
+	font-size:15px;
+	color:#20A48F;
+}
+.arrow i{
+	font-size:15px;
+	color:#20A48F;
+	margin-right:5px;
+	margin-top:5px;
+	
+}
+
+
+/************************         5.community-area                  ****************************/
+
+
+
+.community-area {
+	background-color:#F5F6F8;
+	padding:105px 0;
+}
+.community-images a{
+	display:block;
+	text-align:center;
+}
+.community-area .arrow {
+	margin-left:90%;
+	margin-bottom:10px;
+}
+.collumn-text {
+	display:block;
+	text-align:center;
+}
+.collumn-text img {
+	background:#16A085;
+} 
+
+
+
+/****************  6. Subcribe Area     *********************/
+
+
+.subscriber-area {
+	background:#FFF url(images/subscribebg.jpg) no-repeat  0 0 / 100% 100%;
+	padding:350px 0;
+}
+.subs-text h3{
+	color:#FFFFFF;
+	font-size:25px ;
+}
+.subscriber-area form input[type="email"] {
+	color:#383838;
+	font-family:"gotham rounded bold";
+}
+
+.subscriber-area form input[type="submit"] {
+	background:#16A086;
+	margin-left:-5px;
+	color:#FFFFFF;
+}
+
+
+
+/************************        7.download-area                  ****************************/
+
+
+.download-area {
+	background-color:#F5F6F8;
+	padding:52px 0;
+	overflow:hidden;
+}
+.download-text h3 {
+	color:#383838;
+	font-size:22px;
+}
+.download-text p {
+	color:#373737;
+	font-size:14px;
+	margin-bottom:36px;
+}
+.store {
+	font-family:"gotham rounded bold";
+	font-size:16px;
+	color:#FFFFFF;
+	background-color:#1BBC9B;
+	margin-bottom:30px;
+}
+.app {
+	font-size:24px;
+	background-color:#16A086;
+	color:#FFFFFF;
+	margin-left:-5px;
+	margin-bottom:30px;	
+}
+
+
+
+/************************        8.Footer-area                  ****************************/
+
+
+.footer-area {
+	overflow:hidden;
+	margin:40px 0;
+}
+
+
+.footer-area .foot {
+	font-family:"gotham rounded bold";
+	font-size:14px;
+	color:#383838;
+	letter-spacing:2.5px;
+}
+.foot1:after, 
+.foot2:after {
+	content: "  |";
+	font-weight:bold;
+	color:#16A086;
+}
+.footer-area p {
+	margin-top:60px;
+	font-family:"gotham rounded bold";
+	font-size:14px;
+	color:#383838;
+	letter-spacing:2px;
+}
+.footer-area .green-camera img{
+	background-color:#58BBA9;
+}
+.footer-area .green-camera {
+	display:block;
+	margin-left:88%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

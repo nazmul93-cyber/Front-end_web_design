@@ -1,0 +1,11 @@
+@media all and (max-width:768px) {
+	.col13 {
+		width:48%;
+	}
+}
+
+@media all and (max-width:600px) {
+	.col13 {
+		width:98%;
+	}
+}

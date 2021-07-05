@@ -1,0 +1,530 @@
+body {
+	margin: 0;
+	padding:0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 960px ;
+	width: 80%;
+	margin: 0 auto;
+}
+
+h3 {
+	font-size: 17px;
+	letter-spacing: .5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+p {
+	font-size: 16px;
+	letter-spacing:1px;
+	max-width: 200px;
+	margin: auto;
+}
+h4 {
+	color: #30bae7;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+}
+ul li a {
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	border-radius:6%;
+}
+a {
+	text-decoration: none;
+}
+.button {
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;  /* margin padding kaaj koranor jonno a tag a display dite hoy*/
+	padding: 10px 50px;
+	border-radius:6%;
+	transition:.5s;
+	
+}
+
+.section-header hr {
+	width: 80px; /* width choto korle automatic majhkhane chole ase*/
+	border: 2px solid #000;
+}
+.col-1-4 {
+	width: 23%;   /*total 25% korar jonno -> erokom 4ta total 100%*/
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+.col-1-2 {
+	width: 46%;
+	margin: 0 2%;
+	float: left;
+	overflow: hidden;
+}
+/******************           Header Area                ************/
+.header-area {
+	background:#87509c;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+.header-top {
+	clear:both;  /*dane bame kichu rakhte dibe na*/
+}
+.header-area .logo h1 {
+	
+}
+.logo {
+	width: 30%;  
+	float: left;
+	overflow: hidden;
+}
+.header-menu {  /*.logo ke 30% korleo ekahne 70% dewa jabena karon baki jaygar 70% nibe & ov:h dewa jabe na karon then sub-menu ber hobe na*/
+
+}
+.header-menu ul {
+	float: right;
+	margin-top: 25px;
+}
+.header-menu ul li {
+	float: left;
+	margin-left: 10px;
+}
+.header-menu ul li a{
+	color: #FFFFFF;
+	display: block;
+	padding: 7px 15px ;
+}
+
+.header-menu ul .active a,
+.header-menu ul li:hover a {
+	background:#643a79;
+}
+.header-action {
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0;
+}
+.header-action h1 {
+	font-weight: bold;
+	font-size: 32px;
+	color: #FFFFFF;
+}
+
+.header-action .button {
+	color: #FFF;
+	background: #eb7d4b;
+	border-bottom:3px solid #c86a40;
+	margin: 20px 0 40px;
+}
+.header-action .button:hover {
+	color: #eb7d4b;
+	background: #FFFFFF;
+}
+
+
+
+/***********                   Services Area                 *****************/
+.services-area {
+	background: #17c2a4;
+	overflow:hidden;
+	padding: 90px 0 130px;	
+	color: #FFFFFF;
+	text-align: center;  /*pura section er color same ar tader content shob majhkhane*/
+}
+.section-header h2 {
+	font-size: 32px;
+	font-weight: 600;   /*semibold er jonno 600 likhleo hoy*/
+	text-transform: uppercase;
+	letter-spacing:3px;
+	margin: 3px 0;
+}
+.section-header hr {
+	width: 80px; /* width choto korle automatic majhkhane chole ase*/
+	
+}
+.services-area .section-header hr  {
+	border: 2px solid #14a58c;
+}
+.section-header p {
+	font-size: 16px;
+	max-width: 576px;
+	margin: auto;
+	letter-spacing:1px;
+	
+}
+.services {
+	overflow: hidden;
+	margin-top: 80px;
+}
+
+.service-item {
+	margin-top: 70px;
+}
+.service-item img {
+	width:90px;
+	height: 130px;
+	margin-bottom: 20px;
+}
+
+
+
+/******************                   Team Area               ****************/
+
+.team-area {
+	overflow: hidden;
+	color: #3c4761;
+	background: #e7f1f8;
+	text-align: center;
+	padding: 125px 0;
+}
+.team-area .section-header hr  {
+	border: 2px solid #c8d9e5;
+}
+.team {
+	overflow: hidden;
+	margin-top: 80px;
+}
+.team img{
+	width: 120px;  /*img width kohkono 320px er beshi newa jabena*/
+	height: 120px;
+	display:block;
+	margin: auto;
+	border-radius:50%;  /*h+w soman rekhe border radius 50% kolre circular shape er border hoye jay*/
+}
+.team-item h3 {
+	margin: 40px 0 2px;
+}
+
+.team-item h4 {
+	margin-bottom: 30px;
+}
+.team-item .social {
+	margin-top: 30px;
+}
+
+.team-item .social ul li{
+	margin: 0 1px;
+}
+
+.team-item .social ul li a i{
+	color: #FFFFFF;
+	background: #bdd1df;
+	font-size: 15px;
+	width: 15px;
+	height: 15px;
+	padding: 5px;
+	border-radius:50%;
+	transition-duration:.5s;
+}
+.team-item .social ul li:hover a i{
+	background: #3C4761;
+	
+}
+
+
+
+/***************                 Skill Area                    *************/
+.skill-area {
+	overflow: hidden;
+	color: #3c4761;
+	background: #FFFFFF;
+	text-align: center;
+	padding: 105px 0;
+}
+.skill-area .section-header hr {
+	border:2px solid #dfe8ed;
+}
+.skills{
+	margin-top: 75px;
+	overflow: hidden;
+}
+
+/*****************              Portfolio Area           ****************/
+
+.portfolio-area {
+	overflow: hidden;
+	background: #ffdd99;
+	color: #393939;
+	text-align: center;
+	padding: 105px 0;
+}
+.portfolio-area .section-header hr {
+	
+	border: 2px solid #e5c37f;
+}
+.portfolio-menu {
+	overflow: hidden;
+	margin: 40px 0 60px;
+}
+.portfolio-menu ul li a {
+	color: #393939;
+	background: #ebc985;
+	display: inline-block;
+	padding:7px 25px;
+}
+.portfolio-menu ul .chole a,
+.portfolio-menu ul li:hover a
+{
+	background: #ffffff;
+}
+.portfolio-menu ul li {
+	margin: 0 2px;
+}
+
+.portfolios {
+	overflow: hidden;
+	margin-bottom: 35px;
+	
+}
+.portfolios img {
+	width: 100%;
+	height: auto;
+}
+.portfolios h4 {
+	color: #393939;
+	text-transform: uppercase;
+	margin-top:10px;
+}
+.portfolio-area .button {
+	color:#ffffff;
+	background: #17c2a4;
+	border-bottom:3px solid #14a58c;
+}
+.portfolio-items {
+	margin-top: 25px;
+	margin-bottom:25px;
+}
+
+.portfolio-area .button:hover {
+	color:#17c2a4;
+	background: #FFFFFF;
+}
+
+/****************            About Area         ************/
+
+.about-area {
+	color: #FFFFFF;
+	background: #d74680;
+	text-align: center;
+	padding: 105px 0;
+	overflow: hidden;
+}
+.about-area .section-header hr {
+	border: 2px solid #b73c6d;
+}
+.about-area  .client img {
+	display:block;
+	width: 70px;  
+	height: 70px;
+	margin: auto;
+	border-radius:50%;
+}
+
+.about-area  .testimonials {
+	overflow: hidden;
+}
+
+.about-area .testimonials .client {
+	margin-top: 80px;
+	overflow: hidden;
+
+}
+.about-area  .client p {
+	margin: 0 5px;
+	font-style:italic;
+}
+.about-area  .client .client-thumb {
+	width: 25%;
+	margin-right: 5%;
+	float: left;
+	overflow: hidden;
+}
+.about-area  .client .client-content {
+	width:70%;
+	float: left;
+	overflow: hidden;
+}
+
+.about-area .testimonials .client .client-content {
+	text-align: left;
+
+}
+.about-area .testimonials .client h4 {
+	color: #ffdd99;
+	margin-top: -25px;
+}
+
+/*******************                 Contact Area            *******************/
+.contact-area {
+	overflow: hidden;
+	color: #FFFFFF;
+	background: #3c5499;
+	text-align: center;
+	padding: 110px 0;
+}
+
+.contact-area .section-header hr {
+	border: 2px solid #273a71;
+}
+.contact-area .section-header p {
+	margin-left: 0;
+	margin-right: 0;
+}
+.contact-area .container {
+	width: 60%;
+}
+.contact-area .contact-form {
+	overflow: hidden;
+	margin-top: 70px;
+}
+.contact-area .contact-form input[type="text"] {
+	float: left;
+	margin-right: 4%;
+	/*overflow: hidden;*/
+
+}
+.contact-area .contact-form input[type="text"],
+ .contact-area .contact-form input[type="email"] {
+ 	font-family: 'Titillium Web', sans-serif;
+	display: block;
+	width: 48%;
+	box-sizing:border-box;
+	background: #273a71;
+	color: #FFFFFF;
+	border:none;
+	padding: 2%;
+	
+}
+
+.contact-area .contact-form textarea {
+	font-family: 'Titillium Web', sans-serif;
+	display: block;
+	width: 100%;
+	margin: auto;
+	box-sizing:border-box;
+	margin: 20px 0 50px;
+	background: #273a71;
+	color: #FFFFFF;
+	border:none;
+	padding: 2%;
+	min-height: 150px;
+}
+
+.contact-area .contact-form input[type="text"]:focus,
+.contact-area .contact-form input[type="email"]:focus,
+.contact-area .contact-form textarea:focus {
+	background: #34495e;
+	transition:.3s;
+}
+
+
+
+.contact-area .contact-form button[type="submit"] {
+	font-family: 'Titillium Web', sans-serif;
+	color: #FFF;
+	background: #30bae7;
+	border:none;
+	border-bottom:3px solid #299ec5;
+	cursor:pointer;
+
+}
+.contact-area .contact-form button[type="submit"]:hover {
+	color: #30bae7;
+	background: #FFF;
+}
+
+
+/*************                 Footer Area          **********/
+.footer-area {
+	overflow: hidden;
+	color: #FFF;
+	background: #344b8e;
+	text-align: center;
+	padding: 40px 0 ;
+}
+.footer-area .social-profiles ul li {
+	margin: 0 8px;
+}
+.footer-area .social-profiles ul li a{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	display: inline-block;
+	margin-bottom: 10px;
+	
+}
+.footer-area .social-profiles ul li:hover a,
+.footer-area .social-profiles ul .achi a {
+	color: #30bae7;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

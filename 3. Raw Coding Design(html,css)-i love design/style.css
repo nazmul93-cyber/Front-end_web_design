@@ -1,0 +1,263 @@
+body {
+	margin:0;
+	font-family:Segoe UI;
+}
+.container {
+	width:60%;
+	margin:auto;
+}
+.matha {
+	background:#23232e;
+	text-align:center;
+	color:#FFFFFF;
+	padding:20px 0;
+}
+.matha a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.matha h2 {
+	text-transform:uppercase;
+	font-size:40px;
+}
+.matha p {
+	font-size:12px;
+}
+.matha img {
+	width:70px;
+	height:auto;
+	margin-bottom:40px;
+}
+.matha .next {
+	margin-top:80px;
+}
+.next a i {
+	border:1px solid #FFFFFF;
+	padding:10px;
+	font-size:12px;
+	width:12px;
+	height:12px;
+	border-radius:50%;
+}
+/*** poricoy ***/
+.poricoy {
+	background-image:url('images/background.png');
+	background-size:cover;
+	
+}
+.amike {
+	
+}
+.amike p {
+	text-align:center;
+	font-size:22px;
+	color:#464b4f;
+}
+h2 {
+	font-size:44px;
+	color:#464b4f;
+	text-align:center;
+	text-transform:uppercase;
+}
+.amrake {
+	overflow:hidden;
+}
+.col13 {
+	width:31.3%;
+	float:left;
+	overflow:hidden;
+	margin:0 1%;
+}
+.col13 h4 {
+	color:#464b4f;
+	text-transform:uppercase;
+	font-size:14px;
+}
+.col13 p {
+	color:#888a8b;
+	font-size:12px;
+}
+
+/*** kaj ***/
+.kaj {
+	background:#23232e;
+	overflow:hidden;
+	padding:30px 0;
+	
+}
+
+.kaj h2,
+.kaj h3{
+	color:#FFFFFF;
+}
+.col13 a img {
+	width:100%;
+	height:auto;
+}
+.menu {
+	margin-bottom:30px;
+}
+.menu ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.menu ul li {
+	display:inline;
+	margin:0 5px;
+}
+.menu ul li a {
+	text-decoration:none;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+	padding:3px 0;
+}
+.menu ul li:hover a {
+	border-bottom:2px solid #7b77c9;
+}
+.menu ul .ekhon a {
+	border-bottom:2px solid #7b77c9;
+}
+.kikaj {
+	text-align:center;
+	overflow:hidden;
+	margin-bottom:60px;
+}
+.kikaj a {
+	text-decoration:none;
+	color:#FFFFFF;
+	font-weight:normal;
+	
+}
+.kikaj h3 {
+	font-size:14px;
+	margin-bottom:0;
+}
+.kikaj .col13 a:nth-child(3) {
+	font-size:10px;
+	color:#6d7590;
+}
+.kikaj .col13 {
+	margin-bottom:30px;
+}
+.button {
+	text-align:center;
+}
+.button a {
+	text-decoration:none;
+	color:#FFFFFF;
+	border:1px solid #7b77c9;
+	border-radius:4px;
+	font-size:12px;
+	padding:14px 32px;
+	background-color:#7b77c9;
+	text-transform:capitalize;
+}
+/*** chobi ***/
+.chobi {
+	background-image:url('images/background.png');
+	background-size:cover;
+	
+}
+.chobi h2 {
+	font-size:52px;
+	margin:0;
+	margin-top:85px;
+	margin-bottom:36px;
+}
+.chobi p {
+	text-align:center;
+	color:#888a8b;
+	margin:0;
+	margin-bottom:30px;
+	font-size:18px;
+}
+.chobis {
+	overflow:hidden;
+}
+.chobi .button {
+	margin-top:65px;
+	margin-bottom:60px;
+}
+/*** Subscribe ***/
+.subscribe {
+	background:#23232e;
+	padding:175px 0 170px 0;
+	text-align:center;
+	color:#FFFFFF;
+}
+.subscribe .infinity img {
+	width:65px;
+	height:auto;
+	margin-bottom:35px;
+}
+.subscribe p {
+	color:#dfdfe0;
+	margin:0;
+	margin-bottom:35px;
+	font-size:12px;
+}
+.subscribe form input {
+	color:#666666;
+	font-size:18px;
+	padding:5px 10px;
+	border-radius:4px;
+	border:none;
+	
+}
+.subscribe form input[type="text"] {
+	margin-right:10px;
+} 
+.subscribe form input[type="submit"] {
+	color:#FFFFFF;
+	background:#7b77c9;
+	cursor:pointer;
+	
+} 
+/***samajik ***/
+.samajik {
+	background-image:url('images/background.png');
+	background-size:cover;
+	padding:65px;
+}
+
+.samajik ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	
+}
+.samajik ul li {
+	display:inline;
+}
+.samajik i {
+	color:#666666;
+	margin:0 10px;
+}
+.samajik p {
+	text-align:center;
+	text-transform:capitalize;
+	color:#a3a3a3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
