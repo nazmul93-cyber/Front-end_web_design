@@ -1,2 +1,2 @@
-# Front-end_web_design
-A list of demo web pages made with raw coding and frameworks
+# Front end web design
+A list of demo web pages made with raw coding with HTML, CSS and jQuery and frameworks like Bootstrap and Uikit
